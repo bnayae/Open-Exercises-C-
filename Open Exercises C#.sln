@@ -3,9 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parallel", "Parallel", "{3F850A57-CC56-47F4-B730-D69A3E60071F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Object Oriented", "Object Oriented", "{E3F674BF-93C6-4F02-A80E-62C3CF418077}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generics", "Generics", "{FAC8079B-88B5-4819-907F-CCEF3CCBD87F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delegate and Events", "Delegate and Events", "{AAADDEA9-1E0A-44EE-A050-D7DECB8175FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Threads Basics", "Threads Basics", "{490E37A8-69CC-467B-BB89-7B2030B5DCA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Thread Race", "Thread Race", "{714B2142-CEC3-4742-9162-FBEE03332BBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadRaceSynchronous", "Parallel\Threads Basics\ThreadRaceSynchronous\ThreadRaceSynchronous.csproj", "{9544426B-556D-437F-BF99-3FE6218D9D15}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9544426B-556D-437F-BF99-3FE6218D9D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9544426B-556D-437F-BF99-3FE6218D9D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9544426B-556D-437F-BF99-3FE6218D9D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9544426B-556D-437F-BF99-3FE6218D9D15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{490E37A8-69CC-467B-BB89-7B2030B5DCA8} = {3F850A57-CC56-47F4-B730-D69A3E60071F}
+		{714B2142-CEC3-4742-9162-FBEE03332BBB} = {490E37A8-69CC-467B-BB89-7B2030B5DCA8}
+		{9544426B-556D-437F-BF99-3FE6218D9D15} = {714B2142-CEC3-4742-9162-FBEE03332BBB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0CAF240E-AB01-49E7-83B7-5518E4537E6C}
